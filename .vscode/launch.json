@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://npm create vite@latest",
+            "request": "launch",
+            "url": "http://npm create vite@latest"
+        }
+    ]
+}
