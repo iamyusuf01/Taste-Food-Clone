@@ -7,7 +7,7 @@ import logo from '../assets/logo.svg'
   return (
     <div className='bg-gray'>
       <div className="flex justify-between p-10 ">
-       <img src={logo} alt=""/>
+       <img onClick={() => navigate('/')} className="cursor-pointer" src={logo} alt=""/>
         <ul className="flex items-center gap-7 text-gray2 ">
           <NavLink to={'/'}>
            <li className='hover:text-primary cursor-pointer'>Home</li>

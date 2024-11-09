@@ -2,7 +2,7 @@ import React from 'react'
 import food_bg from '../assets/food_bg.png'
 const Header = () => {
   return (
-    <div className='mb-8'>
+    <div className='mb-8 outfit'>
         <div className="flex justify-between m-10 mb-8 ">
            {/* right side */}
           <div className='mt-16 w-[60%] '>

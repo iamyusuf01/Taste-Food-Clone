@@ -3,8 +3,11 @@ import { pizza } from '../assets/assests'
 import Arrow_Left from '../assets/Arrow_Left.svg'
 import Arrow_Right from '../assets/Arrow_Right.svg'
 import dot from '../assets/dot.svg'
+import { useNavigate } from 'react-router-dom'
 
 const Categories = () => {
+
+  const navigate = useNavigate();
   return (
     <div className='text-gray2'>
         <h1 className='text-center font-bold text-4xl'> Our Popular <span className='text-primary'>Categories</span></h1>
@@ -38,7 +41,7 @@ const Categories = () => {
                       <h2 className='text-xl font-medium text-center p-1'>{item.name}</h2>
                       <p className='font-light text-xs text-center p-1'>{item.description}</p>
                       <p className=' font-mediumtext-[16px] text-center p-1'>{item.price}</p>
-                      <button className='border rounded-lg bg-primary text-white text-xs h-8 w-28 hover:scale-110 transition-all duration-300'>Add to card</button>
+                      <button  className='border rounded-lg bg-primary text-white text-xs h-8 w-28 hover:scale-110 transition-all duration-300'>Add to card</button>
                     </div>
   
                 )

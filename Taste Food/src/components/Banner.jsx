@@ -1,6 +1,8 @@
 import React from "react";
 import { assets_Data } from "../assets/assests";
 import Taste_now from "../assets/Taste_now.svg";
+import delivery_icon from "../assets/delivery_icon.svg";
+import Rectangle from "../assets/Rectangle.svg";
 
 const Banner = () => {
   return (
@@ -31,6 +33,19 @@ const Banner = () => {
         {/* left Side */}
         <div >
           <img className="" src={Taste_now} alt="" />
+        </div>
+      </div>
+      <div className="flex justify-between items-center mt-10 h-[380px] ho">
+        {/* left Side */}
+        <div className="flex items-center ">
+          <img className="relative w-[400px] pt-16" src={Rectangle} alt=""/>
+          <img className="absolute w-[390px] items-center left-8 m-10" src={delivery_icon} alt=""/>
+        </div>
+        <div className="text-gray2 ml-[40%] m-10 w-[80%] ">
+          {/* right */}
+          <h1 className="font-bold text-2xl w-[300px] m-6">Work <span className="text-primary">whenever</span> you want, <span className="text-primary">whenever</span> you are</h1>
+          <p className="font-light text-[10px] w-[340px] m-6">Work with us and accomodate your schedule as you like. Our work rates have never been higher, this is because we give our empoyees several benefits that they enjoy throughout their journey.</p>
+          <button className="border ml-6 rounded-md bg-primary text-white text-xs h-8 w-20 hover:scale-110 transition-all duration-300">join us</button>
         </div>
       </div>
     </div>
