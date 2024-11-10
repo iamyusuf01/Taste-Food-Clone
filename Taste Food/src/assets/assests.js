@@ -9,6 +9,11 @@ import pizza_img1 from '../assets/pizza_img1.svg'
 import pizza_img2 from '../assets/pizza_img2.svg'
 import pizza_img3 from '../assets/pizza_img3.svg'
 import food_bg from '../assets/food_bg.png'
+import developer from '../assets/developer.svg'
+import resource from '../assets/resource.svg'
+import soft_img from '../assets/soft_img.svg'
+import hard_img from '../assets/hard_img.svg'
+import Arrow_Right from '../assets/Arrow_Right.svg'
 
 
 export const assets_Data = {
@@ -22,11 +27,35 @@ export const assets_Data = {
     pizza_img2,
     pizza_img3,
     food_bg,
+    developer,
+    resource,
+    soft_img,
+    hard_img,
+    Arrow_Right
    
     // add more images and data here as needed. For example:
     // meat_logo, chicken_logo, vegetarian_logo, vegan_logo, etc.
  
 }
+
+export const department = [
+    {
+     title:'Software and Services',
+     image:soft_img,Arrow_Right,
+    },
+    {
+     title:'Hardware',
+     image:hard_img,
+    },
+    {
+     title:'Human Resources',
+     image:resource,
+    },
+    {
+      title:'Development',
+      image:developer,
+    },
+]
  
 export const pizza = [{
     id: 1,

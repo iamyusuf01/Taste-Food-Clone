@@ -3,7 +3,7 @@ import food_bg from '../assets/food_bg.png'
 const Header = () => {
   return (
     <div className='mb-8 outfit'>
-        <div className="flex justify-between m-10 mb-8 ">
+        <div className=" hidden md:flex justify-between m-10 mb-8 ">
            {/* right side */}
           <div className='mt-16 w-[60%] '>
             <h1 className='font-bold text-gray2 text-6xl'> Experience food <span className="text-primary">Delivery</span> like no other   </h1>
