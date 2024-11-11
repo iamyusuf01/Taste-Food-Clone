@@ -36,7 +36,7 @@ const Categories = () => {
             {
               pizza.map((item, index) => {
                 return (
-                    <div key={index} className='shadow-lg text-gray2 shadow-zinc-400 rounded-lg text-center w-[280px] h-[295px] p-6  hover:scale-95 transition-all duration-300 cursor-pointer'>
+                    <div key={index} className='shadow-lg bg-gray text-gray2 shadow-zinc-400 rounded-lg text-center w-[280px] h-[295px] p-6  hover:scale-95 transition-all duration-300 cursor-pointer'>
                       <img className='w-[200px] m-auto ' src={item.image} alt=''/>
                       <h2 className='text-xl font-medium text-center p-1'>{item.name}</h2>
                       <p className='font-light text-xs text-center p-1'>{item.description}</p>
