@@ -18,9 +18,17 @@ import unsplash_Img_1 from '../assets/unsplash_Img_1.svg'
 import unsplash_Img_2 from '../assets/unsplash_Img_2.svg'
 import unsplash_Img_3 from '../assets/unsplash_Img_3.svg'
 import unsplash_Img_4 from '../assets/unsplash_Img_4.svg'
+import vector from '../assets/vector.svg'
+import phone_icon from '../assets/phone_icon.svg'
+import email_icon from '../assets/email_icon.svg'
+import text_icon from '../assets/text_icon.svg'
 
 
 export const assets_Data = {
+    vector,
+    phone_icon,
+    email_icon,
+    text_icon,
     pizza_logo,
     burger_logo,
     salad_logo,
