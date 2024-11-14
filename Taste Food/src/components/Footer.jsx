@@ -6,7 +6,7 @@ const Footer = () => {
 
     const navigate = useNavigate()
   return (
-    <div className='flex justify-between items-center h-16 p-10 list-none bg-primary text-white'>
+    <div className='hidden md:flex justify-between items-center h-16 p-10 list-none bg-primary text-white'>
         <img className='w-32' src={Taste_foot} alt=''/>
         <div  className='grid grid-cols-3 items-center gap-4 cursor-pointer text-xs font-light '>
             <li>Privacy policy</li>

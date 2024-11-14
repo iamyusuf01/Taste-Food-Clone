@@ -22,9 +22,17 @@ import vector from '../assets/vector.svg'
 import phone_icon from '../assets/phone_icon.svg'
 import email_icon from '../assets/email_icon.svg'
 import text_icon from '../assets/text_icon.svg'
+import burger_icon from '../assets/burger_icon.svg'
+import shopping_bags_1 from '../assets/shopping_bags_1.svg'
+import shopping_bags_2 from '../assets/shopping_bags_2.svg'
+import ice_cream from '../assets/ice_cream.svg'
 
 
 export const assets_Data = {
+    shopping_bags_1,
+    shopping_bags_2,
+    ice_cream,
+    burger_icon,
     vector,
     phone_icon,
     email_icon,

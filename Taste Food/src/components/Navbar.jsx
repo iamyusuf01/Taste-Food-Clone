@@ -32,16 +32,16 @@ import search_icon from '../assets/search_icon.svg'
           <button onClick={() => navigate('/signup')}  className='border rounded-md bg-primary text-white text-xs h-8 w-20 hover:scale-110 transition-all duration-300'>Sign Up</button>
         </ul>
        </div>
-       <div>
+       <div className='bg-white'>
          <div className='flex md:hidden justify-between px-5 py-6'>
            <img onClick={() => setShowMenu(true)} className=' w-6 md:hidden' src={humburger} alt=''/>
-           <h1 className='font-light text-md'> Sunset Boulevard</h1>
+           <h1 className='font-normal text-gray2 text-xl'> Sunset Boulevard</h1>
            <img  className='w-6 md:hidden' src={error} alt=''/>
          </div>
-         {/* Search BAr */}
-           <div className='flex justify-center md:hidden'>
-                  <div className='flex border border-zinc-300 rounded-full h-9 w-[300px] justify-between'>
-                    <input className=' p-2 text-sm bg-transparent outline-none w-[240px]  rounded-full' type='text' placeholder='Search restaurants' />
+         {/* Search Bar */}
+           <div className='flex justify-center flex-nowrap md:hidden'>
+                  <div className='flex mx-12  border-[1.5px] border-zinc-300 rounded-full h-9 w-full justify-between'>
+                    <input className=' p-2 text-sm bg-transparent outline-none w-[240px]  rounded-full' type='text' placeholder='Search Restaurants' />
                       <div className='bg-primary rounded-full w-11 mx-1 my-0.5 '>
                       <img className=' m-auto p-1.5 '  src={search_icon} alt=''/>
                       </div>

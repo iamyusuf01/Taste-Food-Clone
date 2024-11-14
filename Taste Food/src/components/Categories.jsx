@@ -9,7 +9,7 @@ const Categories = () => {
 
   const navigate = useNavigate();
   return (
-    <div className='text-gray2'>
+    <div className='text-gray2 hidden md:block'>
         <h1 className='text-center font-bold text-4xl'> Our Popular <span className='text-primary'>Categories</span></h1>
         {/* Buttons */}
         <div className=' flex justify-center gap-4 m-10 text-primary'>
