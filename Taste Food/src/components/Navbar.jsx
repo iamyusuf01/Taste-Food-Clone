@@ -1,10 +1,11 @@
-  import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import logo from '../assets/logo.svg'
-  import shopping_card from '../assets/shopping_card.png'
+import shopping_card from '../assets/shopping_card.png'
 import { useState } from 'react'
 import humburger from '../assets/humburger.svg'
 import error from '../assets/error.svg'
 import search_icon from '../assets/search_icon.svg'
+import { assets_Data } from '../assets/assests'
 
   const Navbar = () => {
     
@@ -54,15 +55,50 @@ import search_icon from '../assets/search_icon.svg'
                 {/* <img className='w-6' onClick={() => setShowMenu(false)} src={humburger} alt=''/> */}
             </div>
 
-             <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-md font-medium'>
-             <NavLink  onClick={() => setShowMenu(false)} to={'/profile'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>Username</p></NavLink>
-                <NavLink className='px-4 py-1 rounded inline-block' onClick={() => setShowMenu(false)} to={'/'}><p className='px-2 py-1 rounded text-center  hover:bg-primary hover:text-gray w-[250px] inline-block'>Home</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/address'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Address</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/order'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Orders</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/favourites'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Favourites</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/account'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Account</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/register'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>Resister Your Business</p></NavLink>
-                <NavLink  onClick={() => setShowMenu(false)} to={'/terms'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>Terms & Conditions</p></NavLink>
+             <ul className='flex flex-col gap-2 text-md font-medium text-gray2'>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/profile'}>
+                  <p className='px-4 py-1 rounded inline-block text-center w-[250px]'>Username</p>
+                </NavLink>
+                <NavLink className=' py-1 rounded inline-block' onClick={() => setShowMenu(false)} to={'/'}>
+                  <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4 hover:bg-white' src={assets_Data.Home_Icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>Home</p>
+                  </div>
+                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/address'}>
+                  <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.Location_icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>My Address</p>
+                  </div>
+                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/order'}>
+                 <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.Order_icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>My Orders</p>
+                  </div>
+                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/favourites'}>
+                 <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.Heart_icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>My Favourites</p>
+                  </div>
+                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/account'}>
+                 <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.Person_icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>My Account</p>
+                  </div>                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/register'}>
+                 <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.register_your_business} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>Resister Your Business</p>
+                  </div>                </NavLink>
+                <NavLink  onClick={() => setShowMenu(false)} to={'/terms'}>
+                 <div className='flex items-center px-6  hover:bg-primary hover:text-gray w-[250px]'>
+                    <img className='w-4' src={assets_Data.Terms_icon} alt=''/>
+                    <p className=' py-1 rounded mx-3  inline-block'>Terms And Conditions</p>
+                  </div>                
+                </NavLink>
              </ul>
           </div>
        </div>

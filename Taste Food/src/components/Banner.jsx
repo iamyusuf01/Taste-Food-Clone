@@ -6,7 +6,7 @@ import Rectangle from "../assets/Rectangle.svg";
 
 const Banner = () => {
   return (
-    <div className="hidden md:block">
+    <div className="hidden md:block ">
       <div className="flex justify-center items-center gap-16 bg-primary h-[200px] relative  ">
         <img className="w-[380px] right-[60%] items-center absolute " src={assets_Data.burger_img} alt="" />
         <div className="text-white ml-[55%] m-10 w-[60%]">

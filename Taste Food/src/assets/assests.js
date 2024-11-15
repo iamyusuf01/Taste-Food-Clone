@@ -26,9 +26,30 @@ import burger_icon from '../assets/burger_icon.svg'
 import shopping_bags_1 from '../assets/shopping_bags_1.svg'
 import shopping_bags_2 from '../assets/shopping_bags_2.svg'
 import ice_cream from '../assets/ice_cream.svg'
-
+import Home_Icon from '../assets/Home_Icon.svg'
+import Location_icon from '../assets/Location_icon.svg'
+import Order_icon from '../assets/Order_icon.svg'
+import Heart_icon from '../assets/Heart_icon.svg'
+import Person_icon from '../assets/Person_icon.svg'
+import register_your_business from '../assets/register_your_business.svg'
+import Terms_icon from '../assets/Terms_icon.svg'
+import Burger_King from '../assets/Burger_King.svg'
+import Mc_Donald from '../assets/Mc_Donald.svg'
+import Star_bucks from '../assets/Star_bucks.svg'
+import Wenay from '../assets/Wenay.svg'
 
 export const assets_Data = {
+    Burger_King,
+    Mc_Donald,
+    Star_bucks,
+    Wenay,
+    Home_Icon,
+    Location_icon,
+    Order_icon,
+    Heart_icon,
+    Person_icon,
+    register_your_business,
+    Terms_icon,
     shopping_bags_1,
     shopping_bags_2,
     ice_cream,
@@ -61,6 +82,29 @@ export const assets_Data = {
     // meat_logo, chicken_logo, vegetarian_logo, vegan_logo, etc.
  
 }
+
+export const NewRestaurants = [
+    {
+        image:Mc_Donald,
+        name: 'Mc Donalds',
+        mintues:'10-25 mins'
+    },
+    {
+        image:Star_bucks,
+        name: 'Starbucks',
+        mintues:'30-45 mins'
+    },
+    {
+        image:Burger_King,
+        name: 'Burger King',
+        mintues:'15-30 mins'
+    },
+    {
+        image:Wenay,
+        name: 'Wenays',
+        mintues:'10-20 mins'
+    }
+]
 
  export const Articles = [
     {
