@@ -13,7 +13,7 @@ import MyFavourites from './pages/MyFavourites'
 import MyOrders from './pages/MyOrders'
 import Profile from './pages/Profile'
 import ResisterYourBusiness from './pages/ResisterYourBusiness'
-import MyAddresses from './pages/MyAddresses'
+import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
 
 
@@ -22,19 +22,21 @@ const App = () => {
     <div>
       <Navbar/>
         <Routes>
+        
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/card" element={<Card />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/myaccount" element={<MyAccount />}/>
-          <Route path="/myfavourites" element={<MyFavourites />}/>
-          <Route path="/myorders" element={<MyOrders />}/>
           <Route path="/profile" element={<Profile />}/>
-          <Route path="/resisteryourbusiness" element={<ResisterYourBusiness />}/>
-          <Route path="/myaddresses" element={<MyAddresses />}/>
-          <Route path="/termsandconditions" element={<TermsAndConditions />}/>
+          <Route path="/address" element={<MyAddress />}/>
+          <Route path="/order" element={<MyOrders />}/>
+          <Route path="/favourites" element={<MyFavourites />}/>
+          <Route path="/account" element={<MyAccount />}/>
+          <Route path="/register" element={<ResisterYourBusiness />}/>
+          <Route path="/terms" element={<TermsAndConditions />}/>
+
         </Routes>
         <Footer />
         

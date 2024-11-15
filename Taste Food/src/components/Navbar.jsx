@@ -55,6 +55,7 @@ import search_icon from '../assets/search_icon.svg'
             </div>
 
              <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-md font-medium'>
+             <NavLink  onClick={() => setShowMenu(false)} to={'/profile'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>Username</p></NavLink>
                 <NavLink className='px-4 py-1 rounded inline-block' onClick={() => setShowMenu(false)} to={'/'}><p className='px-2 py-1 rounded text-center  hover:bg-primary hover:text-gray w-[250px] inline-block'>Home</p></NavLink>
                 <NavLink  onClick={() => setShowMenu(false)} to={'/address'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Address</p></NavLink>
                 <NavLink  onClick={() => setShowMenu(false)} to={'/order'}><p className='px-4 py-1 rounded inline-block text-center  hover:bg-primary hover:text-gray w-[250px]'>My Orders</p></NavLink>
