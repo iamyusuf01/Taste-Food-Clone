@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Terms&Conditions = () => {
+const TermsAndConditions = () => {
   return (
     <div>Terms&Conditions</div>
   )
 }
 
-export default Terms&Conditions
+export default TermsAndConditions
