@@ -12,7 +12,7 @@ import search_icon from '../assets/search_icon.svg'
     const [showMenu, setShowMenu] = useState(false)
     
   return (
-    <div className='bg-gray'>
+    <div className=''>
       <div className="flex-cols hidden md:flex  justify-between p-10 ">
        <img onClick={() => navigate('/')} className="cursor-pointer" src={logo} alt=""/>
         <ul className="flex items-center gap-7 text-gray2 ">
