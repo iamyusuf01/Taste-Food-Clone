@@ -37,8 +37,12 @@ import Burger_King from '../assets/Burger_King.svg'
 import Mc_Donald from '../assets/Mc_Donald.svg'
 import Star_bucks from '../assets/Star_bucks.svg'
 import Wenay from '../assets/Wenay.svg'
+import Star_icon_1 from '../assets/Star_icon_1.svg'
+import Star_icon from '../assets/Star_icon.svg'
 
 export const assets_Data = {
+    Star_icon,
+    Star_icon_1,
     Burger_King,
     Mc_Donald,
     Star_bucks,
@@ -82,6 +86,23 @@ export const assets_Data = {
     // meat_logo, chicken_logo, vegetarian_logo, vegan_logo, etc.
  
 }
+export const Offers = [
+    {
+        image:pizza_img,
+        name:'Pepperoni pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon
+    },
+    {
+        image:pizza_img1,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+]
+
 
 export const NewRestaurants = [
     {

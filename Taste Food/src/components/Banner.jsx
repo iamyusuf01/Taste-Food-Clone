@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="hidden md:block ">
       <div className="flex justify-center items-center gap-16 bg-primary h-[200px] relative  ">
-        <img className="w-[380px] right-[60%] items-center absolute " src={assets_Data.burger_img} alt="" />
+        <img className="w-[360px] left-4 items-center absolute " src={assets_Data.burger_img} alt="" />
         <div className="text-white ml-[55%] m-10 w-[60%]">
           <h1 className="font-bold text-2xl w-[300px] ">Don’t miss out on your favourite food</h1>
           <p className="font-light text-[10px] w-[300px] pt-4">
@@ -35,11 +35,11 @@ const Banner = () => {
           <img className="" src={Taste_now} alt="" />
         </div>
       </div>
-      <div className="flex justify-between items-center mt-10 h-[380px] ho">
+      <div className="flex flex-nowrap relative justify-between items-center mt-10 gap-28 h-[380px]">
         {/* left Side */}
-        <div className="flex items-center ">
-          <img className="relative w-[400px] pt-16" src={Rectangle} alt=""/>
-          <img className="absolute w-[390px] items-center left-8 m-10" src={delivery_icon} alt=""/>
+        <div className="flex  items-center ">
+          <img className="absolute w-[190px] pt-20" src={Rectangle} alt=""/>
+          <img className="absolute w-[390px] items-center left-7 m-10" src={delivery_icon} alt=""/>
         </div>
         <div className="text-gray2 ml-[40%] m-10 w-[80%] ">
           {/* right */}
