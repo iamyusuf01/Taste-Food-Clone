@@ -39,10 +39,25 @@ import Star_bucks from '../assets/Star_bucks.svg'
 import Wenay from '../assets/Wenay.svg'
 import Star_icon_1 from '../assets/Star_icon_1.svg'
 import Star_icon from '../assets/Star_icon.svg'
+import Star_icons_1 from '../assets/Star_icons_1.svg'
+import Star_icons_2 from '../assets/Star_icons_2.svg'
+import Star_icons_3 from '../assets/Star_icons_3.svg'
+import Star_icons_4 from '../assets/Star_icons_4.svg'
+
+import Restaurant_img_1 from '../assets/Restaurant_img_1.svg'
+import Restaurant_img_2 from '../assets/Restaurant_img_2.svg'
+import Restaurant_img_3 from '../assets/Restaurant_img_3.svg'
+import Restaurant_img_4 from '../assets/Restaurant_img_4.svg'
+import Restaurant_img_5 from '../assets/Restaurant_img_5.svg'
+import Restaurant_img_6 from '../assets/Restaurant_img_6.svg'
 
 export const assets_Data = {
     Star_icon,
     Star_icon_1,
+    Star_icons_1,
+    Star_icons_2,
+    Star_icons_3,
+    Star_icons_4,
     Burger_King,
     Mc_Donald,
     Star_bucks,
@@ -108,23 +123,63 @@ export const NewRestaurants = [
     {
         image:Mc_Donald,
         name: 'Mc Donalds',
-        mintues:'10-25 mins'
+        mintues:'10-25 mins',
+        rating:Star_icons_1
     },
     {
         image:Star_bucks,
         name: 'Starbucks',
-        mintues:'30-45 mins'
+        mintues:'30-45 mins',
+        rating:Star_icons_2
     },
     {
         image:Burger_King,
         name: 'Burger King',
-        mintues:'15-30 mins'
+        mintues:'15-30 mins',
+        rating:Star_icons_3
     },
     {
         image:Wenay,
         name: 'Wenays',
-        mintues:'10-20 mins'
-    }
+        mintues:'10-20 mins',
+        rating:Star_icons_4
+    },
+    {
+        image:Restaurant_img_1,
+        name: 'Di Napoles',
+        mintues:'15-30 min',
+       rating:Star_icons_1
+    },
+    {
+        image:Restaurant_img_2,
+        name: 'Mc Donald’s',
+        mintues:'10-25 min',
+        rating:Star_icons_2
+    },
+    {
+        image:Restaurant_img_3,
+        name: 'Burger King',
+        mintues:'30-40 min',
+        rating:Star_icons_2
+    },
+    {
+        image:Restaurant_img_4,
+        name: 'Starbucks',
+        mintues:'10-25 min',
+        rating:Star_icons_3
+    },
+    {
+        image:Restaurant_img_5,
+        name: 'Di Napoles',
+        mintues:'15-30 min',
+        rating:Star_icons_4
+    },
+    {
+        image:Restaurant_img_6,
+        name: 'Mc Donald’s',
+        mintues:'10-25 mins',
+        rating:Star_icons_1
+    },
 ]
 
  export const Articles = [

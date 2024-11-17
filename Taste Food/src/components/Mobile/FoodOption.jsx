@@ -1,12 +1,14 @@
 import React from 'react';
 import { assets_Data, } from '../../assets/assests';
+import { useNavigate } from 'react-router';
 
 const FoodOption = () => {
+  const navigate = useNavigate();
   return (
     <div className='md:hidden bg-white '>
       <div className='grid grid-cols-[160px_minmax(200px,_1fr)]'>
        {/* Left Side */}
-        <div className='rounded-lg  bg-gray mx-4 h-[229px] w-36  '>
+        <div  onClick={() => navigate('/restaurants') } className='rounded-lg  bg-gray mx-4 h-[229px] w-36  '>
             <h1 className='text-center py-10 font-medium text-sm text-gray2'>Restaurants</h1>
             <img className='w-36 absolute rounded-b-lg' src={assets_Data.burger_icon} alt=''/>
         </div>

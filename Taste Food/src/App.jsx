@@ -15,14 +15,15 @@ import Profile from './pages/Profile'
 import ResisterYourBusiness from './pages/ResisterYourBusiness'
 import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
+import Restaurants from './components/Restaurants'
+import MobNavbar from './components/Mobile/MobNavbar'
 
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar/>  
         <Routes>
-        
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/account" element={<MyAccount />}/>
           <Route path="/register" element={<ResisterYourBusiness />}/>
           <Route path="/terms" element={<TermsAndConditions />}/>
+          <Route path="/restaurants" element={<Restaurants />}/>
 
         </Routes>
         <Footer />

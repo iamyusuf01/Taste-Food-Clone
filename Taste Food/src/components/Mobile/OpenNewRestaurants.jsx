@@ -8,7 +8,7 @@ const OpenNewRestaurants = () => {
             <h1 className=' font-bold text-gray2 text-2xl my-6'>Newly Opened</h1>
            <div className='flex flex-nowrap justify-center items-center gap-4 my-8'>
                 {
-                  NewRestaurants.map((item, index) => {
+                  NewRestaurants.slice(0, 4).map((item, index) => {
                     return (
                       <div key={index} className='flex-wrap w-[200px]  text-gray2  '>
                         <img className='w-full' src={item.image} alt=''/>
