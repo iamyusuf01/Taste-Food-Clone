@@ -14,10 +14,10 @@ import resource from '../assets/resource.svg'
 import soft_img from '../assets/soft_img.svg'
 import hard_img from '../assets/hard_img.svg'
 import Arrow_Right from '../assets/Arrow_Right.svg'
-import unsplash_Img_1 from '../assets/unsplash_Img_1.svg'
-import unsplash_Img_2 from '../assets/unsplash_Img_2.svg'
-import unsplash_Img_3 from '../assets/unsplash_Img_3.svg'
-import unsplash_Img_4 from '../assets/unsplash_Img_4.svg'
+import unsplash_img_1 from '../assets/unsplash_img_1.svg'
+import unsplash_img_2 from '../assets/unsplash_img_2.svg'
+import unsplash_img_3 from '../assets/unsplash_img_3.svg'
+import unsplash_img_4 from '../assets/unsplash_img_4.svg'
 import phone_icon from '../assets/phone_icon.svg'
 import email_icon from '../assets/email_icon.svg'
 import text_icon from '../assets/text_icon.svg'
@@ -91,10 +91,10 @@ export const assets_Data = {
     soft_img,
     hard_img,
     Arrow_Right,
-    unsplash_Img_1,
-    unsplash_Img_2,
-    unsplash_Img_3,
-    unsplash_Img_4,
+    unsplash_img_1,
+    unsplash_img_2,
+    unsplash_img_3,
+    unsplash_img_4,
    
     // add more images and data here as needed. For example:
     // meat_logo, chicken_logo, vegetarian_logo, vegan_logo, etc.
@@ -186,26 +186,26 @@ export const NewRestaurants = [
         title:'Get to know',
         name:'us',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque massa at magna sodales molestie. Phasellus sit amet pretium felis. Curabitur consectetur dui diam. Aliquam aliquet consequat quam ut finibus. Vivamus efficitur facilisis facilisis. Maecenas quis sollicitudin nisi. Fusce vehicula ipsum ante, sed vestibulum augue malesuada id. Cras eget orci eget neque luctus bibendum nec sodales mauris. Maecenas euismod elit ut nibh rutrum, at tempus sapien fermentum. ',
-        image:unsplash_Img_1,
+        image:unsplash_img_1,
     },
     {
         title:'Working',
         name:'outdoors',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque massa at magna sodales molestie. Phasellus sit amet pretium felis. Curabitur consectetur dui diam. Aliquam aliquet consequat quam ut finibus. Vivamus efficitur facilisis facilisis. Maecenas quis sollicitudin nisi. Fusce vehicula ipsum ante, sed vestibulum augue malesuada id. Cras eget orci eget neque luctus bibendum nec sodales mauris. Maecenas euismod elit ut nibh rutrum, at tempus sapien fermentum. ',
-        image:unsplash_Img_2,
+        image:unsplash_img_2,
     },
     {
         title:'Follow',
         name:'today’s movement',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque massa at magna sodales molestie. Phasellus sit amet pretium felis. Curabitur consectetur dui diam. Aliquam aliquet consequat quam ut finibus. Vivamus efficitur facilisis facilisis. Maecenas quis sollicitudin nisi. Fusce vehicula ipsum ante, sed vestibulum augue malesuada id. Cras eget orci eget neque luctus bibendum nec sodales mauris. Maecenas euismod elit ut nibh rutrum, at tempus sapien fermentum. ',
-        image:unsplash_Img_3,
+        image:unsplash_img_3,
     },
     {
         title:'Stay',
         name:'motivated',
         work:'at work',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque massa at magna sodales molestie. Phasellus sit amet pretium felis. Curabitur consectetur dui diam. Aliquam aliquet consequat quam ut finibus. Vivamus efficitur facilisis facilisis. Maecenas quis sollicitudin nisi. Fusce vehicula ipsum ante, sed vestibulum augue malesuada id. Cras eget orci eget neque luctus bibendum nec sodales mauris. Maecenas euismod elit ut nibh rutrum, at tempus sapien fermentum. ',
-        image:unsplash_Img_4,
+        image:unsplash_img_4,
     },
 ]
 
