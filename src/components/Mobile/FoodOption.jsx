@@ -16,7 +16,7 @@ const FoodOption = () => {
         <div>
           <div className='flex justify-between  relative rounded-lg bg-gray mx-4  h-24 '>
              <h1 className='font-medium p-8 text-gray2 text-sm '>Nearest Market</h1>
-             <img className='h-[78px] absolute right-0 my-[18px] rounded-lg' src={assets_Data.shopping_bag1} alt=''/>
+             <img className='h-[78px] absolute right-0 my-[18px] rounded-lg' src={assets_Data.Shopping_bag1} alt=''/>
            </div>
             {/* Lower Side */}
            <div className='flex flex-nowrap  justify-center mx-4 my-4 gap-4'>
