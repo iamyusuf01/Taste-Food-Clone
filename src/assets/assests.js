@@ -25,7 +25,7 @@ import burger_icon from '../assets/burger_icon.svg'
 import Shopping_bag1 from '../assets/Shopping_bags1.svg'
 import shopping_bag2 from '../assets/shopping_bags2.svg'
 import ice_cream from '../assets/ice_cream.svg'
-import Home_Icon from '../assets/Home_Icon.svg'
+import Home_icon from '../assets/Home_icon.svg'
 import Location_icon from '../assets/Location_icon.svg'
 import Order_icon from '../assets/Order_icon.svg'
 import Heart_icon from '../assets/Heart_icon.svg'
@@ -62,7 +62,7 @@ export const assets_Data = {
     Mc_Donald,
     Star_bucks,
     Wenay,
-    Home_Icon,
+    Home_icon,
     Location_icon,
     Order_icon,
     Heart_icon,

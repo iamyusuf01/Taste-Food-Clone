@@ -30,7 +30,7 @@ const MobNavbar = () => {
                 </NavLink>
                 <NavLink className='py-1 rounded inline-block' onClick={() => setShowMenu(false)} to={'/'}>
                   <div className='flex items-center px-6 hover:bg-primary hover:text-gray w-[250px]'>
-                    <img className='w-4 fill-current hover:fill-white' src={assets_Data.Home_Icon} alt=''/>
+                    <img className='w-4 fill-current hover:fill-white' src={assets_Data.Home_icon} alt=''/>
                     <p className=' py-1 rounded mx-3  inline-block'>Home</p>
                   </div>
                 </NavLink>
