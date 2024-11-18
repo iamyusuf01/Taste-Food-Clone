@@ -82,7 +82,7 @@ const Restaurants = () => {
                     <img className="" src={VISA_ICON_2} alt="" />
                   </div>
                 </div>
-                <img className="absolute right-20" src={item.rating} alt="" />
+                <img className="absolute right-20 " src={item.rating} alt="" />
                 <img
                   className="absolute right-6 top-20 w-4"
                   src={Heart_Icon}
