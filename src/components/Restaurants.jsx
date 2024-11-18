@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./Mobile/Search";
 import Arrow_Left from "../assets/Arrow_Left.svg";
-import { assets_Data, NewRestaurants } from "../assets/assests";
+import {  NewRestaurants } from "../assets/assests";
 import Heart_Icon from "../assets/Heart_Icon.png";
 import VISA_ICON_1 from "../assets/VISA_ICON_1.png";
 import VISA_ICON_2 from "../assets/VISA_ICON_2.png";
@@ -58,7 +58,7 @@ const Restaurants = () => {
         {/* 75 Restaurants in your area */}
       </div>
       <div>
-        <h2 className="font-light text-ml mx-4 text-gray2">
+        <h2 className="font-light text-xl mx-4 text-gray2">
           75 Restaurants in your area
         </h2>
         <div>
