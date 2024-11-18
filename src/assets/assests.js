@@ -22,8 +22,8 @@ import phone_icon from '../assets/phone_icon.svg'
 import email_icon from '../assets/email_icon.svg'
 import text_icon from '../assets/text_icon.svg'
 import burger_icon from '../assets/burger_icon.svg'
-import shopping_bags_1 from '../assets/shopping_bags_1.svg'
-import shopping_bags_2 from '../assets/shopping_bags_2.svg'
+import shopping_bag1 from '../assets/shopping_bags_1.svg'
+import shopping_bag2 from '../assets/shopping_bags_2.svg'
 import ice_cream from '../assets/ice_cream.svg'
 import Home_Icon from '../assets/Home_Icon.svg'
 import Location_icon from '../assets/Location_icon.svg'
@@ -69,11 +69,10 @@ export const assets_Data = {
     Person_icon,
     register_your_business,
     Terms_icon,
-    shopping_bags_1,
-    shopping_bags_2,
+    shopping_bag1,
+    shopping_bag2,
     ice_cream,
     burger_icon,
-    vector,
     phone_icon,
     email_icon,
     text_icon,
