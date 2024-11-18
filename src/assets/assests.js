@@ -4,27 +4,39 @@ import burger_logo from '../assets/burger_logo.svg'
 import salad_logo from '../assets/salad_logo.svg'
 import combo_logo from '../assets/combo_logo.svg'
 import burger_img from '../assets/burger_img.svg'
-import pizza_img from '../assets/pizza_img.svg'
+
 import pizza_img1 from '../assets/pizza_img1.svg'
-import pizza_img2 from '../assets/pizza_img2.svg'
-import pizza_img3 from '../assets/pizza_img3.svg'
+import pizza_img2 from '../assets/pizza_img2.png'
+import pizza_img3 from '../assets/pizza_img3.png'
+import pizza_img4 from '../assets/pizza_img4.png'
+import pizza_img5 from '../assets/pizza_img5.png'
+import pizza_img6 from '../assets/pizza_img6.png'
+import pizza_img7 from '../assets/pizza_img7.png'
+import pizza_img8 from '../assets/pizza_img8.png'
+import pizza_img9 from '../assets/pizza_img9.png'
+import pizza_img10 from '../assets/pizza_img10.png'
+
 import food_bg from '../assets/food_bg.png'
 import developer from '../assets/developer.svg'
 import resource from '../assets/resource.svg'
 import soft_img from '../assets/soft_img.svg'
 import hard_img from '../assets/hard_img.svg'
 import Arrow_Right from '../assets/Arrow_Right.svg'
+
 import unsplash_img_1 from '../assets/unsplash_img_1.svg'
 import unsplash_img_2 from '../assets/unsplash_img_2.svg'
 import unsplash_img_3 from '../assets/unsplash_img_3.svg'
 import unsplash_img_4 from '../assets/unsplash_img_4.svg'
+
 import phone_icon from '../assets/phone_icon.svg'
 import email_icon from '../assets/email_icon.svg'
 import text_icon from '../assets/text_icon.svg'
+
 import burger_icon from '../assets/burger_icon.svg'
 import Shopping_bag1 from '../assets/Shopping_bags1.svg'
 import shopping_bag2 from '../assets/shopping_bags2.svg'
 import ice_cream from '../assets/ice_cream.svg'
+
 import Home_icon from '../assets/Home_icon.svg'
 import Location_icon from '../assets/Location_icon.svg'
 import Order_icon from '../assets/Order_icon.svg'
@@ -32,6 +44,7 @@ import Heart_icon from '../assets/Heart_icon.svg'
 import Person_icon from '../assets/Person_icon.svg'
 import register_your_business from '../assets/register_your_business.svg'
 import Terms_icon from '../assets/Terms_icon.svg'
+
 import Burger_King from '../assets/Burger_King.svg'
 import Mc_Donald from '../assets/Mc_Donald.svg'
 import Star_bucks from '../assets/Star_bucks.svg'
@@ -81,10 +94,16 @@ export const assets_Data = {
     salad_logo,
     combo_logo,
     burger_img,
-    pizza_img,
     pizza_img1,
     pizza_img2,
     pizza_img3,
+    pizza_img4,
+    pizza_img5,
+    pizza_img6,
+    pizza_img7,
+    pizza_img8,
+    pizza_img9,
+    pizza_img10,
     food_bg,
     developer,
     resource,
@@ -100,16 +119,81 @@ export const assets_Data = {
     // meat_logo, chicken_logo, vegetarian_logo, vegan_logo, etc.
  
 }
+ 
+export const ProductItems = [
+    {
+        title: '',
+        stars:'',
+        description: '',
+    },
+]
+
 export const Offers = [
     {
-        image:pizza_img,
+        image:pizza_img1,
         name:'Pepperoni pizza',
         desc:'Di Napoles',
         price:'10',
         rating:Star_icon
     },
     {
-        image:pizza_img1,
+        image:pizza_img2,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img3,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img4,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img5,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img6,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img7,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img8,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img9,
+        name:'Margarita pizza',
+        desc:'Di Napoles',
+        price:'10',
+        rating:Star_icon_1
+    },
+    {
+        image:pizza_img10,
         name:'Margarita pizza',
         desc:'Di Napoles',
         price:'10',
@@ -147,7 +231,7 @@ export const NewRestaurants = [
         image:Restaurant_img_1,
         name: 'Di Napoles',
         mintues:'15-30 min',
-       rating:Star_icons_1
+        rating:Star_icons_1
     },
     {
         image:Restaurant_img_2,
@@ -230,28 +314,28 @@ export const department = [
  
 export const pizza = [{
     id: 1,
-    image:pizza_img,
+    image:pizza_img1,
     name: 'Margherita',
     price: 10,
     description: 'Classic pizza with tomato sauce.',
 },
 {
     id: 2,
-    image:pizza_img1,
+    image:pizza_img2,
     name: 'Marinara',
     price: 12,
     description: 'Pizza with tomato sauce.',
 },
 {
     id: 3,
-    image:pizza_img2,
+    image:pizza_img3,
     name: 'Capricciosa',
     price: 14,
     description: 'Pizza with tomato sauce.',
 },
 {
     id: 4,
-    image:pizza_img3,
+    image:pizza_img4,
     name: 'Funghi',
     price: 16,
     description: 'Pizza with tomato sauce.',

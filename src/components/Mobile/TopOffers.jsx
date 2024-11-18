@@ -10,10 +10,10 @@ const TopOffers = () => {
         <h1 className='font-bold text-gray2 text-2xl mx-4'>Top Offers</h1>
         <div className=''>
             {
-                Offers.map((item, index) => {
+                Offers.slice(0,3).map((item, index) => {
                     return (
                         <div key={index} className='grid grid-cols-3  mx-4 my-6 gap-6 rounded-lg shadow-md shadow-zinc-300 relative  '>
-                            <img className='mx-4 my-5 ' src={item.image} alt='' />
+                            <img className=' w-32 mx-4 my-6' src={item.image} alt='' />
                             <div className='text-center items-center '>
                               <h2 className='font-bold mt-5 text-gray2'>{item.name}</h2>
                               <p className='font-light my-1'>{item.desc}</p>

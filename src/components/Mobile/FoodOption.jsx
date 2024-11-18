@@ -24,7 +24,7 @@ const FoodOption = () => {
                 <h1 className='font-medium my-4 text-center text-sm text-gray2 '>Nearby Restaurants</h1>
                 <img className='absolute rounded-lg my-1 ' src={assets_Data.shopping_bag2} alt=''/>
               </div>
-              <div className=' h-28 w-[50%] relative  rounded-lg bg-gray'>
+              <div onClick={() => navigate('/product')} className=' h-28 w-[50%] relative  rounded-lg bg-gray'>
                 <h1 className='font-medium my-4 text-center text-sm text-gray2 '>Special Offers</h1>
                 <img className='h-14 absolute right-0 my-1 ' src={assets_Data.ice_cream} alt=''/>
               </div>

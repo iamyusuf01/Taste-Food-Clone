@@ -12,6 +12,10 @@ body{
   font-family: Outfit,
 }
 
+.arrow{
+  color: white;
+}
+
 .praise {
   font-family: "Praise", serif;
   font-weight: 400;

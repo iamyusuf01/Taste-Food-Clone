@@ -16,6 +16,7 @@ import ResisterYourBusiness from './pages/ResisterYourBusiness'
 import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
 import Restaurants from './components/Restaurants'
+import Product from './components/Product'
 
 
 
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/register" element={<ResisterYourBusiness />}/>
           <Route path="/terms" element={<TermsAndConditions />}/>
           <Route path="/restaurants" element={<Restaurants />}/>
+          <Route path="/product" element={<Product/>}/>
 
         </Routes>
         <Footer />

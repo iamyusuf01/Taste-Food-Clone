@@ -20,7 +20,6 @@ const Home = () => {
         <FoodOption />
         <OpenNewRestaurants/>
         <TopOffers/>
-       
     </div>
   )
 }
