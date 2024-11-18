@@ -15,8 +15,8 @@ import Profile from './pages/Profile'
 import ResisterYourBusiness from './pages/ResisterYourBusiness'
 import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
-import Restaurants from './components/Restaurants'
-import MobNavbar from './components/Mobile/MobNavbar'
+import Restaurants from '../components/Restaurants'
+
 
 
 const App = () => {
