@@ -21,17 +21,17 @@ const SignUp = () => {
           <hr  className='w-36 border-y-[1.2px] border-gray2'/>
         </div>
         {/* Sign Up Form */}
-        <div className='mx-[37.5%] my-4 text-gray2 font-normal text-[16px]'>
+        <div className=' my-4 grid justify-items-center text-gray2 font-normal text-[16px]'>
           <input className='my-4 bg-zinc-50 outline-none w-[320px] h-10  border-2 rounded-sm pl-4 border-primary' type='email' placeholder='Email'/>
           <br/>
           <input className='my-2 bg-zinc-50 outline-none w-[320px] h-10  border-2 rounded-sm pl-4 border-primary' type='password' placeholder='Password'/>
           <br/>
           <button className='border rounded-md text-white my-6 bg-primary text-sm h-8 w-28 hover:scale-110 transition-all duration-300'>Sign Up</button>
         </div>
-        <div className='mx-[31%] text-center my-16 w-[40%]'>
+        <div className='mx-[31%] grid grid-rows-3 justify-items-center text-center my-16 w-[40%]'>
           <h1 className='font-bold text-4xl text-gray2'>Work <span className='text-primary'>whenever</span> you want, <span className='text-primary'>whenever</span> you are</h1>
-          <p className='font-normal py-8 text-sm text-gray2'>Work with us and accomodate your schedule as you like. Our work rates have never been higher, this is because we give our empoyees several benefits that they enjoy throughout their journey.</p>
-          <p className='border mx-[38%] text-center p-1 rounded-md text-white bg-primary text-sm h-8 w-28 hover:scale-110 transition-all duration-300'>Join us</p>
+          <p className='font-normal py-4 text-sm text-gray2'>Work with us and accomodate your schedule as you like. Our work rates have never been higher, this is because we give our empoyees several benefits that they enjoy throughout their journey.</p>
+          <p className='border text-center p-1 rounded-md text-white bg-primary text-sm h-8 w-28 hover:scale-110 transition-all duration-300'>Join us</p>
         </div>
     </div>
   )

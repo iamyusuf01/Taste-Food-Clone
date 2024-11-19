@@ -10,7 +10,7 @@ const Contact = () => {
 
   
   return (
-    <div>
+    <div className='hidden md:block'>
       <div className='flex p-10 justify-between items-center'>
         <div>
          <h1 className='font-bold text-4xl w-[40%] text-gray2'>How can we <span className='text-primary'>help</span></h1>
@@ -21,7 +21,7 @@ const Contact = () => {
          {/*  <img className='' src={screen_shot} alt=''/> */}
         </div>
       </div>
-      <div className='p-10 flex justify-center gap-8 '>
+      <div className='mx-10 flex flex-wrap justify-center gap-8 '>
         {/* first cards */}
         <div className='shadow-lg rounded-xl shadow-zinc-400 w-[300px] h-[360px]'>
           <div className='h-4 bg-yellow-600 rounded-t-xl'/>
@@ -48,10 +48,10 @@ const Contact = () => {
       {/* Contact US */}
       <div className=' bg-primary my-10 pb-8'>
         <h1 className='font-bold text-4xl text-white w-[40%] p-10'>Contact Us</h1>
-        <form >
-         <div className='flex justify-evenly pt-4 '>
+        <form className='mx-10 ' >
+         <div className='flex justify-evenly pt-4 gap-4 '>
             <div className='flex rounded-md bg-primary1 w-[280px] h-8 items-center '>
-                <img className='h-4 pl-2' src={assets_Data.vector} alt=''/>
+                <img className='h-4 pl-2' src={assets_Data.Person_icon} alt=''/>
                 <input className='bg-transparent  outline-none  text-white ml-4 mr-2 w-full' type='text' placeholder='Your Name'/>
             </div>
             <div className='flex rounded-md  bg-primary1 w-[280px] h-8 items-center '>

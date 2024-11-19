@@ -5,14 +5,16 @@ import { assets_Data, Offers } from '../assets/assests';
 import stars_icons from '../assets/stars_icons.svg'
 import Heart_Icon from "../assets/Heart_Icon.png";
 import { AppContext } from '../Context/AppContext';
+import { useNavigate } from 'react-router';
 const Product = () => {
 
     const {currencySymbol} = useContext(AppContext)
+    const navigate = useNavigate()
   return (
     <div className='md:hidden'>
         <div className='bg-primary rounded-b-3xl '>
             <div className='grid grid-cols-2 items-center relative mx-4 py-4'>
-                <img className='w-3' src={Arrow_left} alt=''/>
+                <img onClick={() => navigate('/')} className='w-3' src={Arrow_left} alt=''/>
                 <img className=' fixed right-4 ' src={search_icon} alt=''/>
             </div>
             <div className=''>

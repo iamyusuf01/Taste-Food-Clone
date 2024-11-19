@@ -15,11 +15,11 @@ const MyAccount = () => {
   const [isEdit, setIsEdit] = useState(true)
 
   return (
-    <div className='md:hidden bg-white'>
+    <div className='md:hidden bg-white my-4'>
         <MobNavbar/>
          {/* set Username and profile */}
-      <div className=' grid grid-cols-2 justify-items-center mx-4 relative' > 
-         <div className='flex gap-6 items-center mx-2'>
+      <div className=' grid grid-cols-2 justify-items-center mx-4 relative my-4' > 
+         <div className='flex gap-8 items-center '>
           <img className='w-20 rounded' src={user.image} alt=''/>
            <div>
             {

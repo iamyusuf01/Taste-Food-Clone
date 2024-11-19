@@ -1,6 +1,6 @@
 import React from "react";
 import Search from "./Mobile/Search";
-import Arrow_Left from "../assets/Arrow_Left.svg";
+import Arrow_Right from "../assets/Arrow_Right.svg";
 import {  NewRestaurants } from "../assets/assests";
 import Heart_Icon from "../assets/Heart_Icon.png";
 import VISA_ICON_1 from "../assets/VISA_ICON_1.png";
@@ -14,7 +14,7 @@ const Restaurants = () => {
   return (
     <div className="md:hidden mx-4 items-center">
       <div className="flex justify-between my-4">
-        <img onClick={() => navigate('/')} className="w-3" src={Arrow_Left} alt="" />
+        <img onClick={() => navigate('/')} className="w-3 rotate-180 " src={Arrow_Right} alt="" />
         <h1 className="font-bold text-gray2 text-2xl">Restaurants</h1>
         <img className="" src="" alt="" />
       </div>
