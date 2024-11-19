@@ -4,9 +4,12 @@ import { createContext } from 'react';
 export const AppContext = createContext()
 const AppContextProvider = (props) => {
     const currencySymbol = '$';
+    const name = "Sunset Boulevard"
 
     const value = {
         currencySymbol,
+        name,
+        
         // Add other necessary context values here
     }
 

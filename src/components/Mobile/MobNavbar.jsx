@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import humburger from '../../assets/humburger.svg';
 import error from '../../assets/error.svg';
 import { assets_Data } from '../../assets/assests';
+import { AppContext } from '../../Context/AppContext';
 
 
 const MobNavbar = () => {
+
+  const {name} = useContext(AppContext)
 
     const [showMenu, setShowMenu] = useState(false)
   return (
     <div>
          <div className='flex md:hidden justify-between px-5 py-2'>
            <img onClick={() => setShowMenu(true)} className=' w-6 md:hidden' src={humburger} alt=''/>
-           <h1 className='font-normal text-gray2 text-xl'> Sunset Boulevard</h1>
+           <h2 className='font-normal text-gray2 text-xl'>{name}</h2>
            <img  className='w-6 md:hidden' src={error} alt=''/>
          </div>
               {/* Mobile Menu */}
