@@ -2,8 +2,11 @@ import React from 'react'
 import Email_image from '../assets/Email_image.svg';
 import Fb_image from '../assets/Fb_image.svg';
 import Linkedin_image from '../assets/Linkedin_image.svg';
+import { useNavigate } from 'react-router';
 
 const SignUp = () => {
+
+  const navigate = useNavigate();
   return (
     <div>
       <div className='m-12 my-10 text-center'>
@@ -26,7 +29,8 @@ const SignUp = () => {
           <br/>
           <input className='my-2 bg-zinc-50 outline-none w-[320px] h-10  border-2 rounded-sm pl-4 border-primary' type='password' placeholder='Password'/>
           <br/>
-          <button className='border rounded-md text-white my-6 bg-primary text-sm h-8 w-28 hover:scale-110 transition-all duration-300'>Sign Up</button>
+          <button onClick={() => navigate('/login')}
+           className='border rounded-md text-white my-6 bg-primary text-sm h-8 w-28 hover:scale-110 transition-all duration-300'>Sign Up</button>
         </div>
         <div className='mx-[31%] grid grid-rows-3 justify-items-center text-center my-16 w-[40%]'>
           <h1 className='font-bold text-4xl text-gray2'>Work <span className='text-primary'>whenever</span> you want, <span className='text-primary'>whenever</span> you are</h1>

@@ -3,8 +3,10 @@ import MobNavbar from '../components/Mobile/MobNavbar'
 import Person_icon from '../assets/Person_icon.svg'
 import Arrow_Right from '../assets/Arrow_Right.svg'
 import profile_pic from '../assets/profile_pic.svg'
+import { useNavigate } from 'react-router'
 const MyAccount = () => {
-
+  const navigate = useNavigate();
+  
   const [user, setUser] = useState({
     name: 'Username',
     image:profile_pic,
@@ -12,8 +14,8 @@ const MyAccount = () => {
 
   })
 
-  const [isEdit, setIsEdit] = useState(true)
-
+  const [isEdit, setIsEdit] = useState(false)
+  
   return (
     <div className='md:hidden bg-white my-4'>
         <MobNavbar/>
@@ -77,7 +79,7 @@ const MyAccount = () => {
            <img className='w-3 absolute right-4' src={Arrow_Right} alt=''/>
          </div>
           <div className='m-auto absolute right-6'>
-           <button className='my-8  bg-primary px-8 py-2 rounded-full text-white text-xl transition-all' onClick={() => setIsEdit(false)}>Log Out</button>
+           <button  className='my-8  bg-primary px-8 py-2 rounded-full text-white text-xl transition-all' onClick={() => setIsEdit(false)}>Log Out</button>
           </div>
         </div>
       </div>

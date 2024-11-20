@@ -7,17 +7,25 @@ import VISA_ICON_1 from "../assets/VISA_ICON_1.png";
 import VISA_ICON_2 from "../assets/VISA_ICON_2.png";
 import Clock_icon from "../assets/Clock_icon.svg";
 import { useNavigate } from "react-router";
+import { NavLink } from "react-router-dom";
 
 const Restaurants = () => {
 
-  const navigate = useNavigate()
   return (
-    <div className="md:hidden mx-4 items-center">
-      <div className="flex justify-between my-4">
-        <img onClick={() => navigate('/')} className="w-3 rotate-180 " src={Arrow_Right} alt="" />
-        <h1 className="font-bold text-gray2 text-2xl">Restaurants</h1>
-        <img className="" src="" alt="" />
-      </div>
+    <div className="md:hidden mx-4 items-center py-6">
+      <ul className="flex justify-between mx-2 my-4">
+        <NavLink to={'/'}>
+         <li>
+           <img className="w-3 rotate-180 " src={Arrow_Right} alt="" />
+           </li>
+        </NavLink>
+          <li> 
+              <h1 className="font-bold text-gray2 text-2xl">Restaurants</h1>
+          </li>
+          <li>
+             <img className="" src="" alt="" />
+          </li>
+      </ul>
       <Search />
       {/* Repeat where you ordered */}
       <div>

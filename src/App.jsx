@@ -17,6 +17,7 @@ import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
 import Restaurants from './components/Restaurants'
 import Product from './components/Product'
+import Login from './pages/Login'
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/card" element={<Card />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />}/>
           <Route path="/address" element={<MyAddress />}/>
           <Route path="/order" element={<MyOrders />}/>

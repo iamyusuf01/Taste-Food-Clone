@@ -6,16 +6,21 @@ import stars_icons from '../assets/stars_icons.svg'
 import Heart_Icon from "../assets/Heart_Icon.png";
 import { AppContext } from '../Context/AppContext';
 import { useNavigate } from 'react-router';
+import { NavLink } from 'react-router-dom';
 const Product = () => {
 
     const {currencySymbol} = useContext(AppContext)
-    const navigate = useNavigate()
+
   return (
     <div className='md:hidden'>
-        <div className='bg-primary rounded-b-3xl '>
-            <div className='grid grid-cols-2 items-center relative mx-4 py-4'>
-                <img onClick={() => navigate('/')} className='w-3' src={Arrow_left} alt=''/>
-                <img className=' fixed right-4 ' src={search_icon} alt=''/>
+        <div className='bg-primary rounded-b-3xl py-6 '>
+            <div className='grid grid-cols-2 items-center relative mx-5 py-4'>
+               <ul>
+                    <NavLink to={'/'}>
+                       <li> <img className='w-3' src={Arrow_left} alt=''/> </li>
+                    </NavLink>
+                    <li> <img className=' fixed right-4 top-10 ' src={search_icon} alt=''/></li>
+               </ul>
             </div>
             <div className=''>
                 <img className='m-auto w-[300px] ' src={assets_Data.pizza_img1} alt=''/>
