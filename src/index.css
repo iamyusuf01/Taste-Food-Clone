@@ -4,9 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 body{
  
   font-family: Outfit,
@@ -20,5 +17,21 @@ body{
   font-family: "Praise", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+#submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background:#F72D57 ;
+  cursor: pointer;
+}
+
+#gray{
+  background: #F2F2F2;
+  color: #999;
 }
 
