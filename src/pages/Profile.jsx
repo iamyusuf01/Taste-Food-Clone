@@ -1,10 +1,13 @@
 import React from 'react'
-import Login from './Login'
+
 
 const Profile = () => {
   return (
-    <div>
-      <Login/>
+    <div className='text-xl text-center text-gray2'>
+        <h1>Working in progress</h1>
+        <p>Welcome to your profile page. 
+          Here you can manage your account details, 
+          view your orders, and add new business details.</p>
     </div>
   )
 }

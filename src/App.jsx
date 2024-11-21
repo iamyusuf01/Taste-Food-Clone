@@ -17,7 +17,6 @@ import MyAddress from './pages/MyAddress'
 import TermsAndConditions from './pages/TermsAndConditions'
 import Restaurants from './components/Restaurants'
 import Product from './components/Product'
-import Login from './pages/Login'
 
 
 
