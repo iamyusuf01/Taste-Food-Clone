@@ -10,7 +10,7 @@ const Contact = () => {
 
   
   return (
-    <div className='hidden md:block'>
+    <div className='hidden md:block overflow-x-hidden'>
       <div className='flex p-10 justify-between items-center'>
         <div>
          <h1 className='font-bold text-4xl w-[40%] text-gray2'>How can we <span className='text-primary'>help</span></h1>

@@ -31,14 +31,14 @@ const Categories = () => {
           </div>
         </div>
           
-        <div className='grid grid-cols-4 gap-4 justify-center m-10  items-center '>
+        <div className='grid grid-cols-4 gap-4 justify-items-center m-10  items-center mb-24 '>
                 {/* Cards */}
             {
-              pizza.map((item, index) => {
+              pizza.slice(0, 4).map((item, index) => {
                 return (
-                  <div key={index} className='flex '>
+                  <div key={index} className='flex  '>
                     <div className=' shadow-lg tems-center bg-gray text-gray2 shadow-zinc-400 rounded-lg text-center w-[280px] h-[300px] p-6 hover:scale-95 transition-all duration-300 cursor-pointer'>
-                       <img className='w-[200px] m-auto' src={item.image} alt=''/>
+                       <img className=' w-44 m-auto' src={item.image} alt=''/>
                        <h2 className='text-md font-medium text-center my-2'>{item.name}</h2>
                        <p className='font-light text-xs text-center p-1'>{item.description}</p>
                        <p className=' font-medium text-[12px] text-center p-1'>{item.price}</p>
@@ -49,8 +49,8 @@ const Categories = () => {
               })
             }
         </div>
-        <div className='flex justify-center gap-4 m-10'>
-          {/* Left Arrow */}
+        {/* <div className='flex justify-center gap-4 m-10'>
+      
            <img className='w-3 hover:scale-110 transition-all duration-300 cursor-pointer' src={Arrow_Left} alt=''/>
            <div className='flex gap-2'>
               <img className='w-2' src={dot} alt=''/>
@@ -58,9 +58,9 @@ const Categories = () => {
               <img className='w-2' src={dot} alt=''/>
               <img className='w-2' src={dot} alt=''/>
            </div>
-            {/* Right Arrow */}
+            
            <img className='w-3 hover:scale-110 transition-all duration-300 cursor-pointer' src={Arrow_Right} alt=''/>
-        </div>
+        </div> */}
         
     </div>
   )
